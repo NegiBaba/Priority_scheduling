@@ -1,5 +1,5 @@
-#include<bits/stdc++.h>
-#define CLR  system("cls")
+#include<bits/stdc++.h>       // Getting all the libraries in C++
+#define CLR  system("cls")    // this will clear the terminal
 using namespace std;
 
 int process[100][5]; // [][0] == Priority [][1] == burst time [][2] == arrival time [][3] == finsished [][5] == process number
