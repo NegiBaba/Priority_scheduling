@@ -1,17 +1,17 @@
 #include <bits/stdc++.h>
-#define CLR system("cls")
+#define CLR system("cls") // this command clears the terminal
 using namespace std; 
 
 int number; // total number of processes
 
-struct process 
+struct process // this struct contains info of a process like arrival time, vurst time, priority
 {
 	int arival, btime, priority, pno; 
 };
 
 process p[50]; 
 
-bool cmpr(process a, process b) 
+bool cmpr(process a, process b) // compares the waiting time of two processes
 { 
 	if(a.arival == b.arival) 
 	{ 
