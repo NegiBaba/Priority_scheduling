@@ -131,6 +131,4 @@ for(int i = 0; i < number; i++)
 	findgc(); 
 
 	return 0; 
-} 
-
-// This code is contributed by Anukul Chand. 
+}
